@@ -7,18 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD86CA88297F3A00001F60A0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD86CA87297F3A00001F60A0 /* Launch Screen.storyboard */; };
+		DDA77A0D2988EED500ED34F7 /* LocalLegendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA77A0C2988EED500ED34F7 /* LocalLegendView.swift */; };
 		DDD237C1296D117700796768 /* TheTahitiSurfBibleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD237C0296D117700796768 /* TheTahitiSurfBibleApp.swift */; };
 		DDD237C3296D117700796768 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD237C2296D117700796768 /* ContentView.swift */; };
 		DDD237C5296D117800796768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD237C4296D117800796768 /* Assets.xcassets */; };
 		DDD237C8296D117800796768 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD237C7296D117800796768 /* Preview Assets.xcassets */; };
+		DDD237D4296D124600796768 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD237D3296D124600796768 /* LocationsDataService.swift */; };
+		DDD237D6296D126300796768 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD237D5296D126300796768 /* LocationsView.swift */; };
+		DDD237D8296D127D00796768 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD237D7296D127D00796768 /* LocationsListView.swift */; };
+		DDD237DA296D12A100796768 /* LocationsMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD237D9296D12A100796768 /* LocationsMapAnnotationView.swift */; };
+		DDD237DC296D12B900796768 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD237DB296D12B900796768 /* LocationPreviewView.swift */; };
+		DDD237DE296D12D500796768 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD237DD296D12D500796768 /* LocationDetailView.swift */; };
+		DDD237E0296D12F000796768 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD237DF296D12F000796768 /* LocationsViewModel.swift */; };
+		DDD237E2296D130300796768 /* SavedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD237E1296D130300796768 /* SavedViewModel.swift */; };
+		DDD237E4296D131D00796768 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD237E3296D131D00796768 /* Location.swift */; };
+		DDEA39442982FB91003106F3 /* personal-surf-photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEA39432982FB91003106F3 /* personal-surf-photos.swift */; };
+		DDEA394629832907003106F3 /* Photography_icon_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEA394529832907003106F3 /* Photography_icon_page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD86CA87297F3A00001F60A0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DD86CA89297F42CA001F60A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DDA77A0C2988EED500ED34F7 /* LocalLegendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLegendView.swift; sourceTree = "<group>"; };
 		DDD237BD296D117700796768 /* TheTahitiSurfBible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheTahitiSurfBible.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD237C0296D117700796768 /* TheTahitiSurfBibleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTahitiSurfBibleApp.swift; sourceTree = "<group>"; };
 		DDD237C2296D117700796768 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DDD237C4296D117800796768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDD237C7296D117800796768 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDD237D3296D124600796768 /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		DDD237D5296D126300796768 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		DDD237D7296D127D00796768 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		DDD237D9296D12A100796768 /* LocationsMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsMapAnnotationView.swift; sourceTree = "<group>"; };
+		DDD237DB296D12B900796768 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		DDD237DD296D12D500796768 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		DDD237DF296D12F000796768 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		DDD237E1296D130300796768 /* SavedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewModel.swift; sourceTree = "<group>"; };
+		DDD237E3296D131D00796768 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		DDEA39432982FB91003106F3 /* personal-surf-photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "personal-surf-photos.swift"; sourceTree = "<group>"; };
+		DDEA394529832907003106F3 /* Photography_icon_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photography_icon_page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +78,16 @@
 		DDD237BF296D117700796768 /* TheTahitiSurfBible */ = {
 			isa = PBXGroup;
 			children = (
+				DD86CA89297F42CA001F60A0 /* Info.plist */,
 				DDD237C0296D117700796768 /* TheTahitiSurfBibleApp.swift */,
 				DDD237C2296D117700796768 /* ContentView.swift */,
+				DDD237CE296D11C700796768 /* DataServices */,
+				DDD237CF296D11D100796768 /* Views */,
+				DDD237D0296D11E300796768 /* ViewModels */,
+				DDD237D1296D11EE00796768 /* Models */,
 				DDD237C4296D117800796768 /* Assets.xcassets */,
 				DDD237C6296D117800796768 /* Preview Content */,
+				DD86CA87297F3A00001F60A0 /* Launch Screen.storyboard */,
 			);
 			path = TheTahitiSurfBible;
 			sourceTree = "<group>";
@@ -65,6 +98,46 @@
 				DDD237C7296D117800796768 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDD237CE296D11C700796768 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				DDD237D3296D124600796768 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		DDD237CF296D11D100796768 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DDD237D5296D126300796768 /* LocationsView.swift */,
+				DDD237D7296D127D00796768 /* LocationsListView.swift */,
+				DDD237DB296D12B900796768 /* LocationPreviewView.swift */,
+				DDD237D9296D12A100796768 /* LocationsMapAnnotationView.swift */,
+				DDD237DD296D12D500796768 /* LocationDetailView.swift */,
+				DDEA39432982FB91003106F3 /* personal-surf-photos.swift */,
+				DDEA394529832907003106F3 /* Photography_icon_page.swift */,
+				DDA77A0C2988EED500ED34F7 /* LocalLegendView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DDD237D0296D11E300796768 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DDD237DF296D12F000796768 /* LocationsViewModel.swift */,
+				DDD237E1296D130300796768 /* SavedViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DDD237D1296D11EE00796768 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DDD237E3296D131D00796768 /* Location.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD86CA88297F3A00001F60A0 /* Launch Screen.storyboard in Resources */,
 				DDD237C8296D117800796768 /* Preview Assets.xcassets in Resources */,
 				DDD237C5296D117800796768 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +211,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDD237DA296D12A100796768 /* LocationsMapAnnotationView.swift in Sources */,
+				DDA77A0D2988EED500ED34F7 /* LocalLegendView.swift in Sources */,
+				DDD237E4296D131D00796768 /* Location.swift in Sources */,
+				DDD237D8296D127D00796768 /* LocationsListView.swift in Sources */,
+				DDEA394629832907003106F3 /* Photography_icon_page.swift in Sources */,
+				DDD237DE296D12D500796768 /* LocationDetailView.swift in Sources */,
+				DDEA39442982FB91003106F3 /* personal-surf-photos.swift in Sources */,
 				DDD237C3296D117700796768 /* ContentView.swift in Sources */,
+				DDD237E0296D12F000796768 /* LocationsViewModel.swift in Sources */,
+				DDD237D6296D126300796768 /* LocationsView.swift in Sources */,
+				DDD237E2296D130300796768 /* SavedViewModel.swift in Sources */,
+				DDD237DC296D12B900796768 /* LocationPreviewView.swift in Sources */,
 				DDD237C1296D117700796768 /* TheTahitiSurfBibleApp.swift in Sources */,
+				DDD237D4296D124600796768 /* LocationsDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,24 +350,32 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TheTahitiSurfBible/Preview Content\"";
 				DEVELOPMENT_TEAM = 9F3JPPB89L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheTahitiSurfBible/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "The Tahiti Surf Bible";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to identify where you are";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.jerad.TheTahitiSurfBible;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,24 +387,32 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TheTahitiSurfBible/Preview Content\"";
 				DEVELOPMENT_TEAM = 9F3JPPB89L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheTahitiSurfBible/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "The Tahiti Surf Bible";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to identify where you are";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.jerad.TheTahitiSurfBible;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
